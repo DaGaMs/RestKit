@@ -51,7 +51,8 @@ EOS
     ns.prefix_header_contents = <<-EOS
 #import <Availability.h>
 
-#define _AFNETWORKING_PIN_SSL_CERTIFICATES_
+#define _AFNETWORKING_PIN_SSL_CERTIFICATES_ 1
+#define _AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_ 1
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED
   #import <SystemConfiguration/SystemConfiguration.h>
